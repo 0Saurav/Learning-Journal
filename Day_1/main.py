@@ -240,4 +240,42 @@ print(f"My name is {name} and I am {age} years old.")
 
 
 
+# input() 
+
+name = input("Enter your name? ")
+"""
+It shows this message:
+Enter your name:
+
+It waits for user to type something
+It stores the typed value in the variable.
+"""
+
+# Input() always returns a string
+
+age = input("Enter your age: ")
+print(age)
+print(type(age))
+
+
+# age = input("Enter your age: ")
+# print(age + 1)  --> This will throw error because ege is a string
+
+
+# Converting input into number
+
+age = int(input("Enter your age: "))
+print(age + 1)
+
+# Converting into float with float()
+price = float(input("Enter price: "))
+print(price)
+
+
+"""
+If user input is for: 
+1. name, city, email, phone --> keep it as string
+2. age, marks, quantity --> convert it into int()
+3. height, weight, pricem temperature --> maybe float()
+"""
 
